@@ -75,7 +75,7 @@ const AccountForm = () => {
                 
               </div>
               <div className="input-group">
-                <input type="email" placeholder="Email"
+                <input type="email" placeholder="Email Address"
                 onChange={(event) => setUser({...user, email: event.target.value})}
                 />
                 
