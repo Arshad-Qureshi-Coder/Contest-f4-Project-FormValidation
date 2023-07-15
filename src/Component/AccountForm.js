@@ -124,7 +124,7 @@ const AccountForm = () => {
             </form>
             <div className="msg">
                  {error && <p style={{ color: 'red' }}>{error}</p>}
-                 {success && <p style={{ color: 'green' }}>{success}</p>}
+                 {success && <p style={{ color: '#65e6ed' }}>{success}</p>}
             </div>
           </div>
         </div>
